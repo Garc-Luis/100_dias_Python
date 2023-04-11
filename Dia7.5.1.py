@@ -39,7 +39,7 @@ while not end_of_game:
     #Check if user is wrong.
     if guess not in chosen_word:
         #TODO-5: - Si la letra no está en la palabra_elegida, imprime la letra y hazles saber que no está en la palabra.
-        print(f'[{guess}] This letter is not in the word')
+        print(f'[{guess}] This letter is not in the word, You lose a live')
         lives -= 1
         if lives == 0:
             end_of_game = True
